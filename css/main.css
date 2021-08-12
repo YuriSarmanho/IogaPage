@@ -7,8 +7,10 @@ body {
 .container {
   background-color: white;
   margin: 4em;
+  padding-bottom: 1em;
   border-radius: 2em;
   text-align: center;
+  height: 90%;
 }
 
 nav {
@@ -25,18 +27,26 @@ nav {
 nav .cta-button {
   text-decoration: none;
   background-color: #F4D6BA;
-  padding: .2em 1.4em;
+  padding: .5em 1.4em;
   margin: .3em;
   color: white;
   border-radius: 1em;
   font-weight: bold;
 }
 
+nav .cta-button:hover {
+  background-color: #eeceb0;
+}
+
 nav .navButtons {
   text-decoration: none;
-  color: #941313;
+  color: #80491d;
   font-weight: bold;
   padding: 1.3em;
+}
+
+nav .navButtons:hover {
+  color: #eeceb0;
 }
 
 nav ul {
@@ -44,5 +54,47 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+}
+
+.infoArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.infoArea .container-msg {
+  display: block;
+  text-align: left;
+  width: 40%;
+  margin: 4em;
+}
+
+.infoArea .container-msg h1 {
+  font-size: 4em;
+  margin: 0;
+  color: #80491d;
+}
+
+.infoArea .container-msg p {
+  color: #80491d;
+}
+
+.infoArea .container-msg .cta-button {
+  text-decoration: none;
+  background-color: #80491d;
+  padding: .5em 1.4em;
+  margin-bottom: 1em;
+  color: #ffffff;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+.infoArea .container-msg .cta-button:hover {
+  background-color: #9e6230;
+}
+
+.infoArea img {
+  width: 500px;
+  height: 400px;
 }
 /*# sourceMappingURL=main.css.map */

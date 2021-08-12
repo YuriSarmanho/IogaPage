@@ -6,8 +6,10 @@ body{
 .container{
     background-color: white;
     margin: 4em;
+    padding-bottom: 1em;
     border-radius: 2em;
     text-align: center;
+    height: 90%;
 }
 nav{
     display: flex;
@@ -17,20 +19,61 @@ nav{
         .cta-button{
             text-decoration:none;
             background-color: #F4D6BA;
-            padding: .2em 1.4em ;
+            padding: .5em 1.4em ;
             margin: .3em ;
             color: white;
             border-radius: 1em;
             font-weight: bold;
         }
+        .cta-button:hover{
+            background-color: #eeceb0;
+        }
         .navButtons{
             text-decoration: none;
-            color: #941313;
+            color: #80491d;
             font-weight: bold;
             padding: 1.3em;
         }    
+        .navButtons:hover{
+            color: #eeceb0;
+        }
         ul{
             display: flex;
             list-style-type: none;
         }
 }
+.infoArea{
+    display: flex;
+
+    .container-msg{
+        display: block;
+        text-align: left;
+        width: 40%;
+        margin: 4em;
+            h1{
+                font-size: 4em;
+                margin: 0;
+                color: #80491d ;
+            }
+            p{
+                color:#80491d
+            }
+            .cta-button{
+                text-decoration:none;
+                background-color: #80491d;
+                padding: .5em 1.4em ;
+                margin-bottom: 1em ;
+                color: #ffffff;
+                border-radius: 1em;
+                font-weight: bold;
+            }
+            .cta-button:hover{
+                background-color: #9e6230;
+            }
+    }
+    img{
+        width: 500px;
+        height: 400px;
+    }
+}
+
