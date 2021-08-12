@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: #F4D6BA;
+    font-family: 'poppins';
+}
+.container{
+    background-color: white;
+    margin: 4em;
+    border-radius: 2em;
+    text-align: center;
+}
+nav{
+    display: flex;
+    padding: 1em;
+    margin: 2em;
+    justify-content: space-between;
+        .cta-button{
+            text-decoration:none;
+            background-color: #F4D6BA;
+            padding: .2em 1.4em ;
+            margin: .3em ;
+            color: white;
+            border-radius: 1em;
+            font-weight: bold;
+        }
+        .navButtons{
+            text-decoration: none;
+            color: #941313;
+            font-weight: bold;
+            padding: 1.3em;
+        }    
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+}

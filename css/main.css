@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #F4D6BA;
+  font-family: 'poppins';
+}
+
+.container {
+  background-color: white;
+  margin: 4em;
+  border-radius: 2em;
+  text-align: center;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  margin: 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .cta-button {
+  text-decoration: none;
+  background-color: #F4D6BA;
+  padding: .2em 1.4em;
+  margin: .3em;
+  color: white;
+  border-radius: 1em;
+  font-weight: bold;
+}
+
+nav .navButtons {
+  text-decoration: none;
+  color: #941313;
+  font-weight: bold;
+  padding: 1.3em;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */
